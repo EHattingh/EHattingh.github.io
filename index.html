@@ -1,20 +1,96 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estian Hattingh - Portfolio</title>
 </head>
 <body>
-  <h1>My Portfolio</h1>
-  <p>Welcome to my website.</p>
-  
-  
-  <h2>Projects</h2>
-  <ul>
-    <li>Project A</li>
-    <li>Project B</li>
-  </ul>
 
-  <p><a href="This_Is_A_Test.pdf" download>Download my resume</a></p>
+    <!--Chapter 4 Structural HTML-->
+    <header>
+        <h1>Hattingh Estian</h1>
+        <p>Full-Stack Web Develoment Specializing in Modern Web Technology </p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!--Chapter 5 Phrasing HTML Elements-->
+        <section id="about" class="fade-in">
+        <h2>About Us</h2>
+        <p>I am dedicated <strong>Full-Stack Web Developer</strong>with over five years
+        of Experience in buildng <em>responsive</em> and <b>user-friendly</b> applications. My 
+            expertise spans front-end and back-end Development, with a passion for creating 
+            seamless digitial experience. I specialize in modern frameworks and strive to 
+            deliver <mark>high-quality</mark> soluyions tailored to client needs.</b></p>
+            
+        <!--Chapter 7 Embedded HTML Elements-->
+        <img src="Estian.jpg" alt="Profile Picture of Hattingh Estian" class="profile-img">
+        </section>
+
+        <section id="experience">
+            <h2>Professional Experience</h2>
+            <p>Thrughout my career, I have worked wuth diverse teams to deliver innovative
+                web solutions. My roles have included designing intuitive user interface, 
+                oprimizing back-end performance, and integrationg APIs for enhanced 
+                functionality. Below us a summary of my key projects.p</p>
+        </section>
+
+        <!--Chapter 6 Table HTML Elemenst-->
+        <section id="projects">
+            <h2>Selected Projects</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Projects Name</th>
+                        <th>Description</th>
+                        <th>Technologies</th>
+                        <th>Year</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>E-Commeerce Platform</td>
+                        <td>Developed a scalable online store with secure payment intergration
+                            and user authentication.
+                        </td>
+                        <td>React, Node.js, MongoDB</td>
+                        <td>2024</td>
+                    </tr>
+                    <tr>
+                        <td>Portfolio Website</td>
+                        <td>Designed a perssonal portfolio to showcase my skills and projects
+                            with a responsive layout.</td>
+                        <td>HTML, CSS, Flexbox</td>
+                        <td>2025</td>
+                    </tr>
+                    <tr>
+                        <td>Task Managment App</td>
+                        <td>Build a collaboratice task managment tool with real-time updates 
+                            and user roles</td>
+                        <td>Vue.js, Firebase</td>
+                        <td>2023</td>
+                    </tr>
+                    <tr>
+                        <td>Blog Platform</td>
+                        <td>Create a dynamic blog with commenting and contnet managment
+                            features</td>
+                        <td>WordPress, PHP, MySql</td>
+                        <td>2022</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
 </body>
 </html>
